@@ -57,9 +57,10 @@ blockquote{
 	margin-top: 200px;
   font-size: 3em;
   font-style:italic;
-  color: #72B7BC;
+  //font-weight: bold;
+  color: #04050A;
   line-height:1.6;
-  text-shadow: 1px 1px 0px black;
+  //text-shadow: 1px 1px 0px black;
 }
 
 blockquote span{
@@ -69,7 +70,6 @@ blockquote span{
   font-style: normal;
   font-weight: bold;
   margin-top:0.8em;
-  text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
 }
 
 .full-width-img {
