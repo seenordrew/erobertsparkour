@@ -1,0 +1,68 @@
+html, body, ul, nav, footer, main, img {
+	margin: 0;
+}
+
+body {
+	background-color: #E7EAE1;
+}
+
+.wrapper {
+	height: 100vh;
+	background-image: url("../images/jumpedit.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	list-style: none;
+	background-color: rgba(17, 39, 60, 0.8)
+}
+
+.navbar li {
+	padding: 40px;
+	color: #E7EAE1;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	margin: 0vw 20vw; 
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+main img {
+	width: 100%;
+}
+
+.full-width-img {
+	width: 100%;
+}
+
+.first-word {
+	font-size: 30px;
+	color: #72B7BC;
+}
+
+.footer {
+	height: 10vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	background-color: #0D2235;
+}
+
+.footer li {
+		padding: 0px 40px;
+		color: white;
+		font-family: 'Nunito Sans', sans-serif;
+}
+
+footer img {
+	width: 15%;
+}
