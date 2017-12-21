@@ -1,81 +1,105 @@
-html, body {
-    width: 100%;
-    margin: 0;
-    font-size: 1em;
-    line-height: 1.4;
+html, body, ul, nav, footer, main, img {
+	margin: 0;
 }
 
+body {
+	background-color: #E7EAE1;
+}
 
+.wrapper {
+	height: 100vh;
+	background-image: url("../images/jumpedit.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	list-style: none;
+	background-color: rgba(17, 39, 60, 0.8);
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
 
+.navbar li {
+	padding: 40px;
+	color: #E7EAE1;
+	font-size: 1.25em;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+}
 
+main {
+	margin: 0vw 20vw; 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25em;
+}
 
-
-/*
- * A better looking default horizontal rule
- */
+main img {
+	width: 100%;
+}
 
 hr {
-    display: block;
-    height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-    display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
     height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+blockquote{
+	margin-top: 350px;
+	margin-left: 300px;
+  font-size: 1.4em;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 0.75em;
+  line-height:1.6;
+  background: rgba(231, 234, 225, 0.9);
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
+blockquote span{
+  display:block;
+  color:#333333;
+  font-size: 0.7em;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:0.8em;
 }
 
+.full-width-img {
+	width: 100%;
+}
+
+.first-word {
+	font-size: 30px;
+	color: #72B7BC;
+}
+
+.footer {
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	background-color: #0D2235;
+}
+
+.footer li {
+		//padding: 0px 40px;
+		color: white;
+		font-family: 'Oxygen', sans-serif;
+}
+
+footer img {
+	width: 30px;
+}
