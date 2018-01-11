@@ -125,6 +125,14 @@ hr {
 	z-index: 1;
 }
 
+.two-images {
+	display: grid;
+	grid-template-columns: 48% 48%;
+	grid-gap: 10px;
+	justify-content: center;
+	margin: 1vw 0vw;
+}
+
 footer {
 	top: 0;
 	background-color: #0D2235;
