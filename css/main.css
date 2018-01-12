@@ -24,6 +24,10 @@ nav {
 	z-index: 5;
 }
 
+nav img {
+	width: 20%;
+}
+
 .navbar {
 	display: flex;
 	justify-content: flex-end;
@@ -100,6 +104,10 @@ h1, h2, h3, h4, h5, h6 {
 .email, .link {
 	text-decoration: none;
 	color: #72B7BC
+}
+
+.email:hover, .link:hover {
+	text-decoration: underline;
 }
 
 .contact {
