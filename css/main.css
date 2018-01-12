@@ -1,4 +1,4 @@
-html, body, ul, nav, footer, main, img {
+html, body, ul, nav, footer, main, img, {
 	margin: 0;
 }
 
@@ -78,6 +78,14 @@ main {
 	font-size: 1.25em;
 }
 
+.content {
+	margin: 1vw 1vw;
+	background: #f7f7f7;
+	-webkit-box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oxygen';
 }
@@ -106,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
 box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
 }
 
+#map {
+        height: 400px;
+        width: 100%;
+        }
+
 hr {
     border: 0;
     height: 1px;
@@ -130,7 +143,7 @@ hr {
 	grid-template-columns: 48% 48%;
 	grid-gap: 10px;
 	justify-content: center;
-	margin: 1vw 0vw;
+	padding-bottom: 1vw;
 }
 
 footer {
@@ -150,8 +163,8 @@ footer {
 
 }
 
-.footer li {
-
+.footer li a {
+	color: white;
 		
 }
 
@@ -159,11 +172,6 @@ footer p {
 	text-align: center;
 	font-size: 0.75em;
 }
-
-/*footer a {
-	text-decoration: none;
-	color: #72B7BC;
-}*/
 
 footer img {
 	width: 30px;
