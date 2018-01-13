@@ -1,76 +1,82 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>E.Roberts Parkour</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>E.Roberts Parkour</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="../css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Source+Sans+Pro" rel="stylesheet">
-    </head>
-    
-    <body>
-       		<nav>
+	<link rel="stylesheet" href="../css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Source+Sans+Pro" rel="stylesheet">
+</head>
 
-       			<ul class="navbar">
-       				<li><a href="../">Home</a></li>
-       				<li><a href="/">Classes</a></li>
-       				<li><a href="../media/">Media</a></li>
-       				<li><a href="../partners/">Partners</a></li>
-       				<li><a href="../contact/">Contact</a></li>
-       			</ul>
-       		</nav>
-          <img class="full-width-img" src="../images/rail.jpg">
-       <main>
-        <h2><u>Classes</u></h2>
-        <p>Regularly Scheduled Parkour Classes:</p>
-        <p><a class="link" href="https://www.google.com/maps/place/Pak+Fuk+Road+Playground/@22.290262,114.2069734,18.16z/data=!4m5!3m4!1s0x3404010e49c613d5:0xfdb01d817d6f3f27!8m2!3d22.2903961!4d114.207272" target="_blank">Pak Fuk Road Playground</a></p> 
-        
-        <!-- (is it also possible to next to each time have a sign up button that takes them to something that emails me their sign up or something?) -->
-        <p>Wednesdays 6:00pm - 7:30pm</p>
-        <p>Don’t see a time that works for you? Maybe we can find one!<br>
-        To schedule a class at a different time, or a private lesson, contact:</p>
-        <a class="email" href="mailto:erobertsparkour@gmail.com">erobertsparkour@gmail.com</a><br>
-        <img class="sm-icon" src="../images/wtsp-icon.png"><span>+852 6712 0391</span><br>
-        <h2><u>Pricing</u></h2>
-        <p>Drop-in: $200HKD<br>
-        Monthly membership: $700HKD</p>
+<body>
+	<nav>
+		<ul class="navbar">
+			<li><a href="../">Home</a></li>
+			<li><a href="../classes/">About</a></li>
+			<li><a href="/">Classes</a></li>
+			<li><a href="../media/">Media</a></li>
+			<li><a href="../partners/">Partners</a></li>
+			<li><a href="../contact/">Contact</a></li>
+		</ul>
+	</nav>
+	<img class="full-width-img" src="../images/rail.jpg">
+	<main>
+		<h2><u>Classes</u></h2>
+		<p>Regularly Scheduled Parkour Classes:</p>
+		<p><a class="link" href="https://www.google.com/maps/place/Pak+Fuk+Road+Playground/@22.290262,114.2069734,18.16z/data=!4m5!3m4!1s0x3404010e49c613d5:0xfdb01d817d6f3f27!8m2!3d22.2903961!4d114.207272" target="_blank">Pak Fuk Road Playground</a></p> 
 
-        <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 22.2903961, lng: 114.20727199999999};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5epIzI6Q3B-6IfO_QyipB6XEvOhd7RRU&callback=initMap">
-    </script>
+		<!-- (is it also possible to next to each time have a sign up button that takes them to something that emails me their sign up or something?) -->
+		<p>Wednesdays 6:00pm - 7:30pm</p>
+		<p>Don’t see a time that works for you? Maybe we can find one!<br>
+		To schedule a class at a different time, or a private lesson, contact:</p>
+		<a class="email" href="mailto:erobertsparkour@gmail.com">erobertsparkour@gmail.com</a><br>
+		<img class="sm-icon" src="../images/wtsp-icon.png"><span>+852 6712 0391</span><br>
+		<h2><u>Pricing</u></h2>
+		<p>Drop-in: $200HKD<br>
+		Monthly membership: $700HKD</p>
 
-			
-	   </main>
-       <footer>
-       		<ul class="footer">
-       			<li>Eric Roberts Parkour</li> 
-       			<li>Hong Kong</li> 
-       			<li>+852.6712.0391</li>
-       			<li><a class="email" href="mailto:erobertsparkour@gmail.com">erobertsparkour@gmail.com</a></li> 
-       			<li><a href="https://www.instagram.com/erobertsparkour" target="_blank"><img src="../images/insta-icon.png"></a></li>
-       		</ul>
-       			<p>Photos: <a class="link" href="https://www.instagram.com/bipkarma/" target="_blank">Bipin Bishwokarma</a></p>
-       			<p>Website Design: <a class="link" href="http://www.clearmindcreations.com" target="_blank">clearmindcreations.com</a></p>
-       </footer>
-    </body>
+		<div id="map"></div>
+		<script>
+			function initMap() {
+				var uluru = {lat: 22.2903961, lng: 114.20727199999999};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 17,
+					center: uluru
+				});
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			}
+		</script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5epIzI6Q3B-6IfO_QyipB6XEvOhd7RRU&callback=initMap">
+	</script>
+
+	<div class="typeform-widget" data-url="https://robeeri.typeform.com/to/ZPc3AN" style="width: 100%; height: 500px;" > </div> 
+	<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() 
+	</script> 
+
+	<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=ZPc3AN&amp;utm_source=typeform.com-11595984-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+</main>
+<footer>
+	<ul class="footer">
+		<li>Eric Roberts Parkour</li> 
+		<li>Hong Kong</li> 
+		<li>+852.6712.0391</li>
+		<li><a class="email" href="mailto:erobertsparkour@gmail.com">erobertsparkour@gmail.com</a></li> 
+		<li><a href="https://www.instagram.com/erobertsparkour" target="_blank"><img src="../images/insta-icon.png"></a></li>
+	</ul>
+	<p>Photos: <a class="link" href="https://www.instagram.com/bipkarma/" target="_blank">Bipin Bishwokarma</a></p>
+	<p>Website Design: <a class="link" href="http://www.clearmindcreations.com" target="_blank">clearmindcreations.com</a></p>
+</footer>
+</body>
 </html>
