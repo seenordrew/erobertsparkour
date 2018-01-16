@@ -49,6 +49,7 @@ nav img {
 }
 
 .navbar a {
+	padding: 40px 0px;
 	text-decoration: none;
 	color: #E7EAE1;
 }
