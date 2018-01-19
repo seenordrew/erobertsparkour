@@ -1,64 +1,104 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>E.Roberts Parkour</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>E.Roberts Parkour</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Source+Sans+Pro" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/scripts.js"></script>
-    </head>
-    
-    <body>
-       <div class="wrapper">
-       		<nav class="site-nav">
+	<link rel="stylesheet" href="../css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Source+Sans+Pro" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="../js/scripts.js"></script> -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.site-nav-btn').click(function(){
+				$('.site-nav').toggleClass('active');
+				$('.site-nav-btn').toggleClass('toggle');
+			})
+	})
+	</script>
+</head>
 
-       			<ul class="desktop-navbar">
-       				<li><a href="/">Home</a></li>
-              <li><a href="about/">About</a></li>
-       				<li><a href="classes/">Classes</a></li>
-       				<li><a href="media/">Media</a></li>
-       				<li><a href="partners/">Partners</a></li>
-       				<li><a href="contact/">Contact</a></li>
-       			</ul>
-            <button class="site-nav-btn">
-              <span></span>
-            </button>
-       		</nav>   <!-- site-nav -->
-       		
-	       		<blockquote>"Parkour [is] a tool for self-exploration and empowerment. Parkour represents what is possible… for any ordinary person with the desire to move freely."
-				    <span>- Julie Angel, <i>Breaking the Jump</i></span>
-			      </blockquote>
-			    
-       </div>		<!-- wrapper -->
-       <div class="content">
-         <main>
-         		<p><span class="first-word">Parkour</span> is an athletic training methodology and discipline characterized by overcoming obstacle based challenges using the everyday structures in our environment. Athletes jump, climb, and crawl in challenging situations to learn to overcome virtually any obstacle.</p>
+<body>
+	<nav class="site-nav">
 
-  			
-  	   </main>
-  	   <div class="two-images">
-  	   		<img class="full-width-img" src="images/sequence1.jpg">
-  	   		<img class="full-width-img" src="images/sequence2.jpg">
-  		</div>    <!-- two-images -->
-    </div>    <!-- content -->
-       <footer>
-       		<ul class="footer">
-       			<li>Eric Roberts Parkour</li> 
-       			<li>Hong Kong</li> 
-       			<li>+852.6712.0391</li>
-       			<li><a class="email" href="mailto:erobertsparkour@gmail.com">erobertsparkour@gmail.com</a></li> 
-       			<li><a href="https://www.instagram.com/erobertsparkour" target="_blank"><img src="images/insta-icon.png"></a></li>
-       		</ul>
-       			<p>Photos: <a class="link" href="https://www.bipkarma.com" target="_blank">Bipin Bishwokarma</a></p>
-       			<p>Website Design: <a class="link" href="http://www.clearmindcreations.com" target="_blank">clearmindcreations.com</a></p>
-       </footer>
-    </body>
+		<ul class="desktop-navbar">
+			<li><a href="../">Home</a></li>
+			<li><a href="../about">About</a></li>
+			<li><a href="../classes">Classes</a></li>
+			<li><a href="../media">Media</a></li>
+			<li><a href="../partners">Partners</a></li>
+			<li><a href="../contact">Contact</a></li>
+		</ul>
+		<button class="site-nav-btn">
+			<span></span>
+		</button>
+	</nav>
+	<img class="full-width-img" src="../images/rail.jpg">
+	<main>
+		<h2><u>Classes</u></h2>
+		<p>Regularly Scheduled Parkour Classes:</p>
+		<p><a class="link" href="https://www.google.com/maps/place/Pak+Fuk+Road+Playground/@22.290262,114.2069734,18.16z/data=!4m5!3m4!1s0x3404010e49c613d5:0xfdb01d817d6f3f27!8m2!3d22.2903961!4d114.207272" target="_blank">Pak Fuk Road Playground</a></p> 
+
+		<div class="two-clm-grid">
+			<div><p class="no-margin">Wednesdays <br>
+				4:00pm - 5:30pm<br>
+			6:00pm - 7:30pm</p>
+		</div>
+
+		<div><a class="typeform-share button" class="button" href="https://robeeri.typeform.com/to/ZPc3AN" data-mode="popup" target="_blank">Sign-up Here</a> 
+		</div>
+	</div>		<!-- two-clm-grid -->
+
+	<p>Don’t see a time that works for you? Maybe we can find one!<br>
+		To schedule a class at a different time, or a private lesson, <a class="link" href="../contact/">contact us</a>.</p>
+
+		<h2><u>Pricing</u></h2>
+		<p>Drop-in (without registering): HKD250<br>
+			One-off class: HKD200<br>
+			Package of 4 classes: HKD750<br>
+		Private Lessons: HKD600</p>
+
+
+		<div id="map"></div>
+		<script>
+			function initMap() {
+				var uluru = {lat: 22.2903961, lng: 114.20727199999999};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 17,
+					center: uluru
+				});
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			}
+		</script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5epIzI6Q3B-6IfO_QyipB6XEvOhd7RRU&callback=initMap">
+	</script>
+
+	
+
+	<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+
+</main>
+<footer>
+	<ul class="footer">
+		<li>Eric Roberts Parkour</li> 
+		<li>Hong Kong</li> 
+		<li>+852.6712.0391</li>
+		<li><a class="email" href="mailto:erobertsparkour@gmail.com">erobertsparkour@gmail.com</a></li> 
+		<li><a href="https://www.instagram.com/erobertsparkour" target="_blank"><img src="../images/insta-icon.png"></a></li>
+	</ul>
+	<p>Photos: <a class="link" href="https://www.bipkarma.com" target="_blank">Bipin Bishwokarma</a></p>
+	<p>Website Design: <a class="link" href="http://www.clearmindcreations.com" target="_blank">clearmindcreations.com</a></p>
+</footer>
+</body>
 </html>
