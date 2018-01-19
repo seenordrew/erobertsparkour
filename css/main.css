@@ -348,6 +348,7 @@ footer img {
         box-sizing: border-box;
         border: none;
         outline: none;
+        display: block;
     }
 
     .site-nav-btn span {
