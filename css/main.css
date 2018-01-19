@@ -239,7 +239,7 @@ footer p {
 }
 
 footer img {
-   width: 60px;
+   width: 30px;
 }
 
 
@@ -336,6 +336,10 @@ footer img {
 
     .active {
         right: 0;
+    }
+
+    .inactive {
+      right: -251px;
     }
 
     .site-nav-btn {
