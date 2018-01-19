@@ -64,6 +64,10 @@ nav img {
 	background-color: #72B7BC;
 }
 
+.site-nav-btn, .site-nav-btn span {
+    display: none;
+  }
+
 blockquote {
 	margin: 1.5vw;
 	font-size: 3.5vw;
@@ -125,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .email, .link {
 	text-decoration: none;
-	color: #72B7BC
+	color: #72B7BC;
 }
 
 .email:hover, .link:hover {
@@ -257,6 +261,7 @@ footer img {
 
 
 @media screen and (max-width: 768px) {
+
     .desktop-navbar li {
       padding: 40px 10px;
       margin: 0px 20px;
@@ -339,7 +344,7 @@ footer img {
         left: -50px;
         width: 50px;
         height: 50px;
-        background-color: #E7EAE1;
+        background-color: rgba(17, 39, 60, 0.4);
         box-sizing: border-box;
         border: none;
         outline: none;
