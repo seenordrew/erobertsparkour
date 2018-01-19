@@ -3,8 +3,8 @@ $(document).ready(function(){
 				$('.site-nav').toggleClass('active');
 				$('.site-nav-btn').toggleClass('toggle');
 			})
-			$('.nav-link').on('click', function(){
-				$('.site-nav').removeClass('active');
+			$('nav ul li a').on('click', function(){
+				$('.site-nav').toggleClass('inactive');
 				$('.site-nav-btn').removeClass('toggle');
 			})
 	})
