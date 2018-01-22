@@ -323,7 +323,7 @@ footer img {
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 550px) {
 
     .site-nav {
         position: fixed;
