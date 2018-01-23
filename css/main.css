@@ -68,21 +68,29 @@ nav img {
     display: none;
   }
 
+  .wrapper-text {
+    margin: 3vw 5vw;
+    font-size: 3vw;
+    font-family: 'Oxygen';
+    font-style: italic;
+    font-weight: 600;
+    color: #e1e4ea;
+    text-shadow: 1px 2px black;
+  }
+
 blockquote {
-	margin: 1.5vw;
-	font-size: 3.5vw;
+	//margin: 1.5vw;
+	font-size: 2vw;
 	font-style:italic;
 	font-weight: bold;
-	color: #E7EAE1;
-	text-shadow: 1px 2px black;
 	line-height:1.6;
 
 }
 
 blockquote span{
 	display:block;
-	color: #E7EAE1;
-	font-size: 2vw;
+	//color: #E7EAE1;
+	font-size: 1.5vw;
 	font-style: normal;
 	margin-top:0.8em;
 }
@@ -122,9 +130,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oxygen';
 }
 
+.sm-icons {
+	display: flex;
+}
+
 .sm-icon {
-	width: 4%;
-	display: inline-block;
+  padding: 0vw 0.5vw;
+  /*border: 2px solid yellow;*/
 }
 
 .email, .link {
@@ -190,10 +202,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1vw;
 }
 
-.first-word {
+/*.first-word {
    font-size: 30px;
    color: #72B7BC;
-}
+}*/
 
 .full-width-img {
    width: 100%;
