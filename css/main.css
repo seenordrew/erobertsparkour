@@ -79,20 +79,22 @@ nav img {
 }
 
 blockquote {
-	//margin: 1.5vw;
-	font-size: 2vw;
-	font-style:italic;
-	font-weight: bold;
-	line-height:1.6;
+   margin: 1.5vw;
+   font-size: 3.5vw;
+   font-style:italic;
+   font-weight: bold;
+   color: #E7EAE1;
+   text-shadow: 1px 2px black;
+   line-height:1.6;
 
 }
 
 blockquote span{
-	display:block;
-	//color: #E7EAE1;
-	font-size: 1.5vw;
-	font-style: normal;
-	margin-top:0.8em;
+   display:block;
+   color: #E7EAE1;
+   font-size: 2vw;
+   font-style: normal;
+   margin-top:0.8em;
 }
 
 main {
@@ -202,10 +204,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1vw;
 }
 
-/*.first-word {
+.first-word {
    font-size: 30px;
    color: #72B7BC;
-   }*/
+   }
 
    .full-width-img {
    	width: 100%;
@@ -450,28 +452,30 @@ h1, h2, h3, h4, h5, h6 {
    	}
 
    	blockquote {
-   		padding: 2vw 1vw;
-   		font-size: 4vw;
-   		font-style:italic;
-   		font-weight: bold;
-   		line-height:1.6;
-   		text-shadow: inherit;
-   		color: black;
-   	}
+      margin-top: 0;
+      padding: 18vw 2vw 0vw 2vw;
+      font-size: 5.5vw;
+      font-style:italic;
+      font-weight: bold;
+      color: #E7EAE1;
+      text-shadow: 1px 2px black;
+      line-height:1.6;
 
-   	blockquote span{
-   		display:block;
-   		font-size: 3.5vw;
-   		font-style: normal;
-   		margin-top:0.8em;
-   		color: inherit;
-   	}
+  }
 
-   	main {
-   		margin: 0vw 2vw; 
-   		font-family: 'Source Sans Pro', sans-serif;
-   		font-size: 4.5vw;
-   	}
+  blockquote span{
+      display:block;
+      color: #E7EAE1;
+      font-size: 3vw;
+      font-style: normal;
+      margin-top:0.8em;
+  }
+
+  main {
+    margin: 0vw 2vw; 
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 4.5vw;
+  }
 
    	.two-images {
    		display: grid;
@@ -513,10 +517,6 @@ h1, h2, h3, h4, h5, h6 {
    	.coming-soon {
    		margin: 23vh 0vh;
    		text-align: center;
-   	}
-
-   	footer {
-   		/*margin-top: 2vw;*/
    	}
 
    	.footer {
