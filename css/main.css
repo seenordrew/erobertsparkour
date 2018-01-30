@@ -103,6 +103,22 @@ main {
 	font-size: 1.25em;
 }
 
+/*.main-img {
+   display: flex;
+   justify-content: center;
+}*/
+
+.main-img a {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.main-img img {
+   width: 50%;
+}
+
 .two-clm-grid {
 	display: grid;
 	grid-template-columns: 200px 200px;
