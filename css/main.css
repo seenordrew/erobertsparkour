@@ -103,10 +103,11 @@ main {
 	font-size: 1.25em;
 }
 
-/*.main-img {
-   display: flex;
+img {
+   /*display: block;*/
    justify-content: center;
-}*/
+   width: 100%;
+}
 
 .main-img a {
  display: flex;
@@ -121,7 +122,8 @@ main {
 
 .two-clm-grid {
 	display: grid;
-	grid-template-columns: 200px 200px;
+	grid-template-columns: 1fr 1fr;
+   grid-gap: 3vw;
 	align-items: center;
 }
 
@@ -146,6 +148,14 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oxygen';
+}
+
+h4 {
+   text-align: center;
+}
+
+.sub-header {
+   font-weight: bold;
 }
 
 .sm-icons {
@@ -211,7 +221,6 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.5; 
 	padding-top: 5px;	
 	margin-bottom: 20px;
-
 }
 
 #map {
