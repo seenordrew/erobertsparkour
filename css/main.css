@@ -123,8 +123,7 @@ img {
 .two-clm-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-   grid-gap: 3vw;
-	align-items: center;
+   grid-column-gap: 3vw;
 }
 
 .no-margin {
@@ -150,12 +149,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oxygen';
 }
 
-h4 {
+h2, h4, h5 {
    text-align: center;
 }
 
+h4 {
+   font-weight: bolder;
+}
+
 .sub-header {
-   font-weight: bold;
+   font-style: italic;
+   font-weight: bolder;
 }
 
 .sm-icons {
